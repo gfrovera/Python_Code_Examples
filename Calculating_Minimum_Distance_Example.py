@@ -12,7 +12,7 @@ import math
 # join function produces a cartesian product of both data frames as a result.
 def CrossJoin(dfOne,dfTwo):
     """
-    This function will create a cartesian prodcut of two dataframe inputs.
+    This function will create a cartesian product of two dataframe inputs.
     Additional join constraints can be added if user would like to limit the
     amount of cross joined results. However, 'key' is required for function to 
     work correctly.
