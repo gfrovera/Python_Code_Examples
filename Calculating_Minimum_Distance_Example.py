@@ -26,7 +26,7 @@ def CrossJoin(dfOne,dfTwo):
 # on each line in a cross joined dataset.
 def DistanceCalc(find, search):
     """
-    DistanceCalc calculates the distance between twho points on earth.
+    DistanceCalc calculates the distance between two points on earth.
     The distance is measured in miles, but can be changed to km by changing
     the value of R to a radius of 6371 (earths radius).
     :param find is the start point in tuple form (lat, long)
